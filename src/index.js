@@ -138,3 +138,55 @@ const arr5 = [30, 40];
 // console.log(arr8);
 // arr8[0]=100;
 // console.log(arr4[0]);
+
+const arr10 = [1, 2, 3];
+console.log(arr10);
+
+const nameArr = ["John", "Bob", "Beth"];
+
+// for (let i = 0;i<nameArr.length;i++){
+//   console.log(nameArr[i]);
+// }
+
+// const nameArr2 = nameArr.map((name)=>{
+//   return `My name is ${name}`;
+// })
+
+// console.log(nameArr2);
+
+//nameArr.map((name)=>console.log(name));
+
+// const numArr=[1,2,3,4,5];
+// const newNumArr=numArr.filter((num)=>{
+//   return num % 2 ===0;
+// })
+
+// console.log(newNumArr);
+
+// const nameArr4 = nameArr.map((name,i)=>console.log(`${i+1} is ${name}`));
+
+// const newNameArr = nameArr.map((name)=>{
+//   if (name==='Bob'){
+//     return name;
+//   }else{
+//     return `${name}-san`
+//   }
+// });
+
+// console.log(newNameArr);
+
+// condition ? if true : if false
+// const val1 = 1>0 ? 'true desu': 'false desu'
+// console.log(val1)
+
+// const num = 1300;
+// console.log(num.toLocaleString());
+
+// const formattedNum = typeof num === 'number' ? num.toLocaleString() : 'Please enter number';
+// console.log(formattedNum);
+
+// const checkSum = (num1, num2)=>{
+//   return num1+num2 > 100 ? 'over 100':'ok';
+// };
+
+// console.log(checkSum(50,20))
